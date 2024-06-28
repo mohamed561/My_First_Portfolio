@@ -1,3 +1,8 @@
+.logo {
+    font-size: 36px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between logo and other menu items */
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,6 +16,31 @@ article {
     flex: 2;
     overflow-y: auto;
 }
+/* Example styles for content within <article> */
+article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+article img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto;
+    margin-bottom: 15px;
+}
+
 aside {
     flex: 1;
     overflow-y: auto;
